@@ -16,5 +16,9 @@ namespace MVSGarden.Model
         {
             return 1.94m * (this.KgFruits * this.PriceFruits + this.KgVegitable * this.PriceVegitables);
         }
+        public Garden()
+        {
+
+        }
     }
 }
