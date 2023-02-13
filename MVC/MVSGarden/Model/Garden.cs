@@ -16,9 +16,14 @@ namespace MVSGarden.Model
         {
             return 1.94m * (this.KgFruits * this.PriceFruits + this.KgVegitable * this.PriceVegitables);
         }
-        public Garden()
-        {
+       
 
+        public Garden(decimal priceVegitables, decimal priceFruits, int kgVegitable, int kgFruits)
+        {
+            PriceVegitables = priceVegitables;
+            PriceFruits = priceFruits;
+            KgVegitable = kgVegitable;
+            KgFruits = kgFruits;
         }
     }
 }
