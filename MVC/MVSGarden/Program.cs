@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVSGarden.Controllers;
+using System;
 
 namespace MVSGarden
 {
@@ -6,7 +7,7 @@ namespace MVSGarden
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GardenController controller = new GardenController();
         }
     }
 }
